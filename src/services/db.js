@@ -545,7 +545,26 @@ export const dbService = {
 
   // Serviços
   getServices: () => {
-    return getDB().services;
+    return getDB().services || [];
+  },
+  saveService: (service) => {
+    const db = getDB();
+    if (!db.services) db.services = [];
+    const index = db.services.findIndex(s => s.id === service.id);
+    if (index >= 0) {
+      db.services[index] = service;
+    } else {
+      service.id = 'srv_' + Date.now();
+      db.services.push(service);
+    }
+    saveDB(db);
+    return service;
+  },
+  deleteService: (id) => {
+    const db = getDB();
+    if (!db.services) return;
+    db.services = db.services.filter(s => s.id !== id);
+    saveDB(db);
   },
 
   // Notificações
