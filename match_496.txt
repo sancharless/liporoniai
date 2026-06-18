@@ -1,0 +1,48 @@
+<USER_REQUEST>
+CATÁLOGO TACT AIRSOFT - M3 - 27/05/2026
+TOTAL DE PRODUTOS: 84
+ORIGEM: imagens page-01.png até page-10.png
+OBSERVAÇÃO: descrições terminadas em .. ou ... estão abreviadas no catálogo e não devem ser completadas por suposição.
+
+FORMATO: Página | Código | Descrição | Preço BRL | Preço numérico | Categoria | Necessita revisão | Motivo
+
+1 | 782 | AMMOBOX BBS 0,25g C/3000 (75.. | R$ 44,55 | 44.55 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+1 | 781 | AMMOBOX BBS 0,20g C/3000 (600.. | R$ 39,60 | 39.60 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+1 | 818 | AMMOBOX BBS 0,28g C/2000 (560g.. | R$ 49,50 | 49.50 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+1 | 783 | AMMOBOX BBS 0,30g C/2000 (600g.. | R$ 54,45 | 54.45 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+1 | 882 | BLS BBS 0.20G para Airsoft Gar.. | R$ 79,20 | 79.20 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+1 | 858 | BLS BBS 0.20G para Airsoft Sac.. | R$ 1.782,00 | 1782.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 878 | BLS BBS 0.25G para Airsoft Gar.. | R$ 22,77 | 22.77 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 879 | BLS BBS 0.25G para Airsoft Gar.. | R$ 39,60 | 39.60 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 880 | BLS BBS 0.25G para Airsoft Gar.. | R$ 59,40 | 59.40 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 881 | BLS BBS 0.25G para Airsoft Gar.. | R$ 103,95 | 103.95 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 859 | BLS BBS 0.25G para Airsoft Sac.. | R$ 1.881,00 | 1881.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 886 | BLS BBS 0.25G Tracer para Airs.. | R$ 84,15 | 84.15 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 860 | BLS BBS 0.25G TRACER para Airs.. | R$ 4.950,00 | 4950.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 885 | BLS BBS 0.28G para Airsoft Gar.
+<truncated 7496 bytes>
+4.35 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+9 | 804 | FSA-01 - Motor Ulta High Torqu.. | R$ 495,00 | 495.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+9 | 805 | FSA-C1 - Motor Ulta High Torqu.. | R$ 173,25 | 173.25 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+9 | 806 | FSA-HT36 - Motor High Torque p.. | R$ 297,00 | 297.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+9 | 797 | J-BBS25 - Caixa Feasso bbs 0,2.. | R$ 1.089,00 | 1089.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+9 | 798 | LANTERNA DE EMERGÊNCIA C/ POWE.. | R$ 198,00 | 198.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+10 | 800 | Lanterna Tática TacLight 400 .. | R$ 445,50 | 445.50 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+10 | 801 | Lanterna Tática Taclight 1250.. | R$ 376,20 | 376.20 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+10 | 799 | Lanterna Tática TacLight 500 L.. | R$ 410,85 | 410.85 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+10 | 760 | Mini MAx Carregador Rápido Com.. | R$ 118,80 | 118.80 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+10 | 810 | MOCHILA TÁTICA ASSAULT 15+2L M.. | R$ 222,75 | 222.75 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+10 | 809 | MOCHILA TÁTICA ASSAULT 15+2L T.. | R$ 222,75 | 222.75 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-06-18T13:25:45-03:00.
+
+The user's current state is as follows:
+Active Document: /Untitled-1 (LANGUAGE_UNSPECIFIED)
+Cursor is on line: 1
+Browser State:
+  Page A3E0156C01D9DF47EFBC8732A7393C53 (Liporoni | Agente Comercial Inteligente) - http://localhost:5173/
+    Viewport: 1422x747, Page Height: 747
+  Page 51F5774242A88B3A23DC8101F3B52619 (Liporoni | Agente Comercial Inteligente) - http://localhost:5173/#/proposta/prop_2001 [ACTIVE]
+    Viewport: 1422x747, Page Height: 1464
+</ADDITIONAL_METADATA>

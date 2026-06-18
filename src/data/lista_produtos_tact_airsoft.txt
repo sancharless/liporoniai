@@ -1,0 +1,91 @@
+CATÁLOGO TACT AIRSOFT - M3 - 27/05/2026
+TOTAL DE PRODUTOS: 84
+ORIGEM: imagens page-01.png até page-10.png
+OBSERVAÇÃO: descrições terminadas em .. ou ... estão abreviadas no catálogo e não devem ser completadas por suposição.
+
+FORMATO: Página | Código | Descrição | Preço BRL | Preço numérico | Categoria | Necessita revisão | Motivo
+
+1 | 782 | AMMOBOX BBS 0,25g C/3000 (75.. | R$ 44,55 | 44.55 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+1 | 781 | AMMOBOX BBS 0,20g C/3000 (600.. | R$ 39,60 | 39.60 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+1 | 818 | AMMOBOX BBS 0,28g C/2000 (560g.. | R$ 49,50 | 49.50 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+1 | 783 | AMMOBOX BBS 0,30g C/2000 (600g.. | R$ 54,45 | 54.45 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+1 | 882 | BLS BBS 0.20G para Airsoft Gar.. | R$ 79,20 | 79.20 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+1 | 858 | BLS BBS 0.20G para Airsoft Sac.. | R$ 1.782,00 | 1782.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 878 | BLS BBS 0.25G para Airsoft Gar.. | R$ 22,77 | 22.77 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 879 | BLS BBS 0.25G para Airsoft Gar.. | R$ 39,60 | 39.60 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 880 | BLS BBS 0.25G para Airsoft Gar.. | R$ 59,40 | 59.40 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 881 | BLS BBS 0.25G para Airsoft Gar.. | R$ 103,95 | 103.95 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 859 | BLS BBS 0.25G para Airsoft Sac.. | R$ 1.881,00 | 1881.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 886 | BLS BBS 0.25G Tracer para Airs.. | R$ 84,15 | 84.15 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 860 | BLS BBS 0.25G TRACER para Airs.. | R$ 4.950,00 | 4950.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 885 | BLS BBS 0.28G para Airsoft Gar.. | R$ 49,50 | 49.50 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+2 | 861 | BLS BBS 0.28G para Airsoft Sac.. | R$ 2.079,00 | 2079.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+3 | 887 | BLS BBS 0.28G Tracer para Airs.. | R$ 99,00 | 99.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+3 | 862 | BLS BBS 0.28G TRACER para Airs.. | R$ 5.247,00 | 5247.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+3 | 883 | BLS BBS 0.30G para Airsoft Gar.. | R$ 74,25 | 74.25 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+3 | 863 | BLS BBS 0.30G para Airsoft Sac.. | R$ 3.267,00 | 3267.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+3 | 884 | BLS BBS 0.36G para Airsoft Gar.. | R$ 128,70 | 128.70 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+3 | 864 | BLS BBS 0.36G para Airsoft Sac.. | R$ 8.118,00 | 8118.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+3 | 876 | BLS BBS 0.40G para Airsoft Gar.. | R$ 153,45 | 153.45 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+3 | 865 | BLS BBS 0.40G para Airsoft Sac.. | R$ 9.108,00 | 9108.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+3 | 874 | BLS BBS 0.45G para Airsoft Gar.. | R$ 207,90 | 207.90 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+4 | 866 | BLS BBS 0.45G para Airsoft Sac.. | R$ 11.088,00 | 11088.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+4 | 873 | BLS BBS 0.48G para Airsoft Gar.. | R$ 237,60 | 237.60 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+4 | 867 | BLS BBS 0.48G para Airsoft Sac.. | R$ 11.979,00 | 11979.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+4 | 877 | BLS BBS 0.50G para Airsoft Gar.. | R$ 222,75 | 222.75 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+4 | 642 | BLS Perfect BB 0.20g 6mm c/50.. | R$ 79,20 | 79.20 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+4 | 643 | BLS Perfect BB 0.25g 6mm c/400.. | R$ 84,15 | 84.15 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+4 | 644 | BLS Perfect BB 0.28g 6mm c/20.. | R$ 59,40 | 59.40 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+4 | 645 | BLS Perfect BB 0.30g 6mm c/200.. | R$ 89,10 | 89.10 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+4 | 690 | BLS Perfect BB 0.40g Sniper Se.. | R$ 163,35 | 163.35 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+5 | 822 | BLS Perfect BBS 0,25g TRACER .. | R$ 113,85 | 113.85 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+5 | 811 | BOLSA EXECUTIVE PRETA.. | R$ 118,80 | 118.80 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+5 | 812 | BOLSA EXECUTIVE TAN.. | R$ 113,85 | 113.85 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+5 | 743 | BOLSA PDW GUN TRAVEL PRETA*.. | R$ 123,75 | 123.75 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+5 | 821 | CAIXA FEASSO BBS 0,20G P/ AIRS.. | R$ 1.009,80 | 1009.80 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+5 | 672 | CAPA CASE ARMA LONGA KRYPTEK R.. | R$ 173,25 | 173.25 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+5 | 606 | CAPA CASE PARA ARMA LONGA PRET.. | R$ 163,35 | 163.35 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+5 | 678 | CAPA CASE ARMA LONGA KRYPTEK M.. | R$ 173,25 | 173.25 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+5 | 746 | Capa Protetora Antichamas P/ .. | R$ 27,72 | 27.72 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+6 | 803 | Colete Tático Modular PLATE CA.. | R$ 326,70 | 326.70 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+6 | 802 | Colete Tático Modular PLATE CA.. | R$ 326,70 | 326.70 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+6 | 815 | Colete Tático Modular PLATE CA.. | R$ 212,85 | 212.85 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+6 | 816 | Colete Tático Modular PLATE CA.. | R$ 420,75 | 420.75 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+6 | 814 | Colete Tático Modular PLATE CA.. | R$ 420,75 | 420.75 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+6 | 587 | FFB-002 Bateria LiPO 15C - 11... | R$ 173,25 | 173.25 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+6 | 598 | FFB-005 Bateria LiPO 15C - 11... | R$ 138,60 | 138.60 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+6 | 791 | FFB-005T Bateria LiPO 15C - 11.. | R$ 153,45 | 153.45 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+6 | 614 | FFB-007 Bateria LiPO 15C - 11... | R$ 173,25 | 173.25 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+7 | 615 | FFB-008 Bateria LiPO 15C - 7.4.. | R$ 103,95 | 103.95 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+7 | 630 | FFB-012 Bateria LiPO 25C - 11... | R$ 188,10 | 188.10 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+7 | 756 | FFB-018 Bateria LiPO 20C - 11... | R$ 118,80 | 118.80 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+7 | 824 | FFB-018XT Bateria LiPO 20C - 1.. | R$ 123,75 | 123.75 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+7 | 757 | FFB-019 Bateria LiPO 20C - 11... | R$ 163,35 | 163.35 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+7 | 819 | FFB-019 XT Bateria LiPO 20C - .. | R$ 168,30 | 168.30 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+7 | 660 | FFB-021 Bateria LiPO 15C - 7.4.. | R$ 108,90 | 108.90 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+7 | 661 | FFB-022 Bateria LiPO 15C - 11... | R$ 148,50 | 148.50 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+7 | 792 | FFB-022T Bateria LiPO 15C - 11.. | R$ 153,45 | 153.45 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+8 | 676 | FFB-023 Bateria LiPO 15C - 11... | R$ 173,25 | 173.25 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+8 | 793 | FFB-025 Bateria LiPO 15C - 11... | R$ 148,50 | 148.50 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+8 | 607 | FJA-120 Máscara com Meia Face–.. | R$ 59,40 | 59.40 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+8 | 617 | FJA-120 Máscara com tela meia .. | R$ 59,40 | 59.40 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+8 | 616 | FJA-120 Máscara Tela Meia Face.. | R$ 59,40 | 59.40 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+8 | 625 | FJA-122 Mascara Multicam – Pre.. | R$ 108,90 | 108.90 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+8 | 638 | FJA-122 Mascara Multicam–Areia.. | R$ 108,90 | 108.90 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+8 | 641 | FJA-126 Jay fast Mascara Cinz.. | R$ 84,15 | 84.15 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+8 | 639 | FJA-126 Jay fast Máscara – Are.. | R$ 84,15 | 84.15 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+9 | 619 | FJA-160 Kit Proteção Joelheira.. | R$ 99,00 | 99.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+9 | 608 | FJA-160 Kit Proteção Joelheira.. | R$ 99,00 | 99.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+9 | 650 | FJA-161 Joelheira - Cor Preta*.. | R$ 64,35 | 64.35 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+9 | 651 | FJA-161 Joelheira - cor TAM*.. | R$ 64,35 | 64.35 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+9 | 804 | FSA-01 - Motor Ulta High Torqu.. | R$ 495,00 | 495.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+9 | 805 | FSA-C1 - Motor Ulta High Torqu.. | R$ 173,25 | 173.25 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+9 | 806 | FSA-HT36 - Motor High Torque p.. | R$ 297,00 | 297.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+9 | 797 | J-BBS25 - Caixa Feasso bbs 0,2.. | R$ 1.089,00 | 1089.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+9 | 798 | LANTERNA DE EMERGÊNCIA C/ POWE.. | R$ 198,00 | 198.00 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+10 | 800 | Lanterna Tática TacLight 400 .. | R$ 445,50 | 445.50 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+10 | 801 | Lanterna Tática Taclight 1250.. | R$ 376,20 | 376.20 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+10 | 799 | Lanterna Tática TacLight 500 L.. | R$ 410,85 | 410.85 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+10 | 760 | Mini MAx Carregador Rápido Com.. | R$ 118,80 | 118.80 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+10 | 810 | MOCHILA TÁTICA ASSAULT 15+2L M.. | R$ 222,75 | 222.75 | Airsoft | SIM | Descrição abreviada no catálogo de origem
+10 | 809 | MOCHILA TÁTICA ASSAULT 15+2L T.. | R$ 222,75 | 222.75 | Airsoft | SIM | Descrição abreviada no catálogo de origem

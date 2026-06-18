@@ -1,0 +1,1514 @@
+[
+  {
+    "id": "prod_782",
+    "code": "782",
+    "description": "AMMOBOX BBS 0,25g C/3000 (75..",
+    "price": 44.55,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 1,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 44.55,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_781",
+    "code": "781",
+    "description": "AMMOBOX BBS 0,20g C/3000 (600..",
+    "price": 39.6,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 1,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 39.6,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_818",
+    "code": "818",
+    "description": "AMMOBOX BBS 0,28g C/2000 (560g..",
+    "price": 49.5,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 1,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 49.5,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_783",
+    "code": "783",
+    "description": "AMMOBOX BBS 0,30g C/2000 (600g..",
+    "price": 54.45,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 1,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 54.45,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_882",
+    "code": "882",
+    "description": "BLS BBS 0.20G para Airsoft Gar..",
+    "price": 79.2,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 1,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 79.2,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_858",
+    "code": "858",
+    "description": "BLS BBS 0.20G para Airsoft Sac..",
+    "price": 1782,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 1,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 1782,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_878",
+    "code": "878",
+    "description": "BLS BBS 0.25G para Airsoft Gar..",
+    "price": 22.77,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 2,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 22.77,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_879",
+    "code": "879",
+    "description": "BLS BBS 0.25G para Airsoft Gar..",
+    "price": 39.6,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 2,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 39.6,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_880",
+    "code": "880",
+    "description": "BLS BBS 0.25G para Airsoft Gar..",
+    "price": 59.4,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 2,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 59.4,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_881",
+    "code": "881",
+    "description": "BLS BBS 0.25G para Airsoft Gar..",
+    "price": 103.95,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 2,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 103.95,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_859",
+    "code": "859",
+    "description": "BLS BBS 0.25G para Airsoft Sac..",
+    "price": 1881,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 2,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 1881,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_886",
+    "code": "886",
+    "description": "BLS BBS 0.25G Tracer para Airs..",
+    "price": 84.15,
+    "category": "Airsoft",
+    "subcategory": "BBs Tracer",
+    "page": 2,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 84.15,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_860",
+    "code": "860",
+    "description": "BLS BBS 0.25G TRACER para Airs..",
+    "price": 4950,
+    "category": "Airsoft",
+    "subcategory": "BBs Tracer",
+    "page": 2,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 4950,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_885",
+    "code": "885",
+    "description": "BLS BBS 0.28G para Airsoft Gar..",
+    "price": 49.5,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 2,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 49.5,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_861",
+    "code": "861",
+    "description": "BLS BBS 0.28G para Airsoft Sac..",
+    "price": 2079,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 2,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 2079,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_887",
+    "code": "887",
+    "description": "BLS BBS 0.28G Tracer para Airs..",
+    "price": 99,
+    "category": "Airsoft",
+    "subcategory": "BBs Tracer",
+    "page": 3,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 99,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_862",
+    "code": "862",
+    "description": "BLS BBS 0.28G TRACER para Airs..",
+    "price": 5247,
+    "category": "Airsoft",
+    "subcategory": "BBs Tracer",
+    "page": 3,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 5247,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_883",
+    "code": "883",
+    "description": "BLS BBS 0.30G para Airsoft Gar..",
+    "price": 74.25,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 3,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 74.25,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_863",
+    "code": "863",
+    "description": "BLS BBS 0.30G para Airsoft Sac..",
+    "price": 3267,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 3,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 3267,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_884",
+    "code": "884",
+    "description": "BLS BBS 0.36G para Airsoft Gar..",
+    "price": 128.7,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 3,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 128.7,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_864",
+    "code": "864",
+    "description": "BLS BBS 0.36G para Airsoft Sac..",
+    "price": 8118,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 3,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 8118,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_876",
+    "code": "876",
+    "description": "BLS BBS 0.40G para Airsoft Gar..",
+    "price": 153.45,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 3,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 153.45,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_865",
+    "code": "865",
+    "description": "BLS BBS 0.40G para Airsoft Sac..",
+    "price": 9108,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 3,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 9108,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_874",
+    "code": "874",
+    "description": "BLS BBS 0.45G para Airsoft Gar..",
+    "price": 207.9,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 3,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 207.9,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_866",
+    "code": "866",
+    "description": "BLS BBS 0.45G para Airsoft Sac..",
+    "price": 11088,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 4,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 11088,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_873",
+    "code": "873",
+    "description": "BLS BBS 0.48G para Airsoft Gar..",
+    "price": 237.6,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 4,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 237.6,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_867",
+    "code": "867",
+    "description": "BLS BBS 0.48G para Airsoft Sac..",
+    "price": 11979,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 4,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 11979,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_877",
+    "code": "877",
+    "description": "BLS BBS 0.50G para Airsoft Gar..",
+    "price": 222.75,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 4,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 222.75,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_642",
+    "code": "642",
+    "description": "BLS Perfect BB 0.20g 6mm c/50..",
+    "price": 79.2,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 4,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 79.2,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_643",
+    "code": "643",
+    "description": "BLS Perfect BB 0.25g 6mm c/400..",
+    "price": 84.15,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 4,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 84.15,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_644",
+    "code": "644",
+    "description": "BLS Perfect BB 0.28g 6mm c/20..",
+    "price": 59.4,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 4,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 59.4,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_645",
+    "code": "645",
+    "description": "BLS Perfect BB 0.30g 6mm c/200..",
+    "price": 89.1,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 4,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 89.1,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_690",
+    "code": "690",
+    "description": "BLS Perfect BB 0.40g Sniper Se..",
+    "price": 163.35,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 4,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 163.35,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_822",
+    "code": "822",
+    "description": "BLS Perfect BBS 0,25g TRACER ..",
+    "price": 113.85,
+    "category": "Airsoft",
+    "subcategory": "BBs Tracer",
+    "page": 5,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 113.85,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_811",
+    "code": "811",
+    "description": "BOLSA EXECUTIVE PRETA..",
+    "price": 118.8,
+    "category": "Airsoft",
+    "subcategory": "Bolsas e cases",
+    "page": 5,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 118.8,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_812",
+    "code": "812",
+    "description": "BOLSA EXECUTIVE TAN..",
+    "price": 113.85,
+    "category": "Airsoft",
+    "subcategory": "Bolsas e cases",
+    "page": 5,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 113.85,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_743",
+    "code": "743",
+    "description": "BOLSA PDW GUN TRAVEL PRETA*..",
+    "price": 123.75,
+    "category": "Airsoft",
+    "subcategory": "Bolsas e cases",
+    "page": 5,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 123.75,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_821",
+    "code": "821",
+    "description": "CAIXA FEASSO BBS 0,20G P/ AIRS..",
+    "price": 1009.8,
+    "category": "Airsoft",
+    "subcategory": "Bolsas e cases",
+    "page": 5,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 1009.8,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_672",
+    "code": "672",
+    "description": "CAPA CASE ARMA LONGA KRYPTEK R..",
+    "price": 173.25,
+    "category": "Airsoft",
+    "subcategory": "Bolsas e cases",
+    "page": 5,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 173.25,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_606",
+    "code": "606",
+    "description": "CAPA CASE PARA ARMA LONGA PRET..",
+    "price": 163.35,
+    "category": "Airsoft",
+    "subcategory": "Bolsas e cases",
+    "page": 5,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 163.35,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_678",
+    "code": "678",
+    "description": "CAPA CASE ARMA LONGA KRYPTEK M..",
+    "price": 173.25,
+    "category": "Airsoft",
+    "subcategory": "Bolsas e cases",
+    "page": 5,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 173.25,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_746",
+    "code": "746",
+    "description": "Capa Protetora Antichamas P/ ..",
+    "price": 27.72,
+    "category": "Airsoft",
+    "subcategory": "Bolsas e cases",
+    "page": 5,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 27.72,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_803",
+    "code": "803",
+    "description": "Colete Tático Modular PLATE CA..",
+    "price": 326.7,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 6,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 326.7,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_802",
+    "code": "802",
+    "description": "Colete Tático Modular PLATE CA..",
+    "price": 326.7,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 6,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 326.7,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_815",
+    "code": "815",
+    "description": "Colete Tático Modular PLATE CA..",
+    "price": 212.85,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 6,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 212.85,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_816",
+    "code": "816",
+    "description": "Colete Tático Modular PLATE CA..",
+    "price": 420.75,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 6,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 420.75,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_814",
+    "code": "814",
+    "description": "Colete Tático Modular PLATE CA..",
+    "price": 420.75,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 6,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 420.75,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_587",
+    "code": "587",
+    "description": "FFB-002 Bateria LiPO 15C - 11...",
+    "price": 173.25,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 6,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 173.25,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_598",
+    "code": "598",
+    "description": "FFB-005 Bateria LiPO 15C - 11...",
+    "price": 138.6,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 6,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 138.6,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_791",
+    "code": "791",
+    "description": "FFB-005T Bateria LiPO 15C - 11..",
+    "price": 153.45,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 6,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 153.45,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_614",
+    "code": "614",
+    "description": "FFB-007 Bateria LiPO 15C - 11...",
+    "price": 173.25,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 6,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 173.25,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_615",
+    "code": "615",
+    "description": "FFB-008 Bateria LiPO 15C - 7.4..",
+    "price": 103.95,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 7,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 103.95,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_630",
+    "code": "630",
+    "description": "FFB-012 Bateria LiPO 25C - 11...",
+    "price": 188.1,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 7,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 188.1,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_756",
+    "code": "756",
+    "description": "FFB-018 Bateria LiPO 20C - 11...",
+    "price": 118.8,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 7,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 118.8,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_824",
+    "code": "824",
+    "description": "FFB-018XT Bateria LiPO 20C - 1..",
+    "price": 123.75,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 7,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 123.75,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_757",
+    "code": "757",
+    "description": "FFB-019 Bateria LiPO 20C - 11...",
+    "price": 163.35,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 7,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 163.35,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_819",
+    "code": "819",
+    "description": "FFB-019 XT Bateria LiPO 20C - ..",
+    "price": 168.3,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 7,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 168.3,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_660",
+    "code": "660",
+    "description": "FFB-021 Bateria LiPO 15C - 7.4..",
+    "price": 108.9,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 7,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 108.9,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_661",
+    "code": "661",
+    "description": "FFB-022 Bateria LiPO 15C - 11...",
+    "price": 148.5,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 7,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 148.5,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_792",
+    "code": "792",
+    "description": "FFB-022T Bateria LiPO 15C - 11..",
+    "price": 153.45,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 7,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 153.45,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_676",
+    "code": "676",
+    "description": "FFB-023 Bateria LiPO 15C - 11...",
+    "price": 173.25,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 8,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 173.25,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_793",
+    "code": "793",
+    "description": "FFB-025 Bateria LiPO 15C - 11...",
+    "price": 148.5,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 8,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 148.5,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_607",
+    "code": "607",
+    "description": "FJA-120 Máscara com Meia Face–..",
+    "price": 59.4,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 8,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 59.4,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_617",
+    "code": "617",
+    "description": "FJA-120 Máscara com tela meia ..",
+    "price": 59.4,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 8,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 59.4,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_616",
+    "code": "616",
+    "description": "FJA-120 Máscara Tela Meia Face..",
+    "price": 59.4,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 8,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 59.4,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_625",
+    "code": "625",
+    "description": "FJA-122 Mascara Multicam – Pre..",
+    "price": 108.9,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 8,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 108.9,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_638",
+    "code": "638",
+    "description": "FJA-122 Mascara Multicam–Areia..",
+    "price": 108.9,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 8,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 108.9,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_641",
+    "code": "641",
+    "description": "FJA-126 Jay fast Mascara Cinz..",
+    "price": 84.15,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 8,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 84.15,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_639",
+    "code": "639",
+    "description": "FJA-126 Jay fast Máscara – Are..",
+    "price": 84.15,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 8,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 84.15,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_619",
+    "code": "619",
+    "description": "FJA-160 Kit Proteção Joelheira..",
+    "price": 99,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 9,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 99,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_608",
+    "code": "608",
+    "description": "FJA-160 Kit Proteção Joelheira..",
+    "price": 99,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 9,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 99,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_650",
+    "code": "650",
+    "description": "FJA-161 Joelheira - Cor Preta*..",
+    "price": 64.35,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 9,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 64.35,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_651",
+    "code": "651",
+    "description": "FJA-161 Joelheira - cor TAM*..",
+    "price": 64.35,
+    "category": "Airsoft",
+    "subcategory": "Vestuário e proteção",
+    "page": 9,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 64.35,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_804",
+    "code": "804",
+    "description": "FSA-01 - Motor Ulta High Torqu..",
+    "price": 495,
+    "category": "Airsoft",
+    "subcategory": "Motores e peças",
+    "page": 9,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 495,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_805",
+    "code": "805",
+    "description": "FSA-C1 - Motor Ulta High Torqu..",
+    "price": 173.25,
+    "category": "Airsoft",
+    "subcategory": "Motores e peças",
+    "page": 9,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 173.25,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_806",
+    "code": "806",
+    "description": "FSA-HT36 - Motor High Torque p..",
+    "price": 297,
+    "category": "Airsoft",
+    "subcategory": "Motores e peças",
+    "page": 9,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 297,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_797",
+    "code": "797",
+    "description": "J-BBS25 - Caixa Feasso bbs 0,2..",
+    "price": 1089,
+    "category": "Airsoft",
+    "subcategory": "BBs e munições",
+    "page": 9,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 1089,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_798",
+    "code": "798",
+    "description": "LANTERNA DE EMERGÊNCIA C/ POWE..",
+    "price": 198,
+    "category": "Airsoft",
+    "subcategory": "Iluminação e outros",
+    "page": 9,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 198,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_800",
+    "code": "800",
+    "description": "Lanterna Tática TacLight 400 ..",
+    "price": 445.5,
+    "category": "Airsoft",
+    "subcategory": "Iluminação e outros",
+    "page": 10,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 445.5,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_801",
+    "code": "801",
+    "description": "Lanterna Tática Taclight 1250..",
+    "price": 376.2,
+    "category": "Airsoft",
+    "subcategory": "Iluminação e outros",
+    "page": 10,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 376.2,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_799",
+    "code": "799",
+    "description": "Lanterna Tática TacLight 500 L..",
+    "price": 410.85,
+    "category": "Airsoft",
+    "subcategory": "Iluminação e outros",
+    "page": 10,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 410.85,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_760",
+    "code": "760",
+    "description": "Mini MAx Carregador Rápido Com..",
+    "price": 118.8,
+    "category": "Airsoft",
+    "subcategory": "Baterias e carregadores",
+    "page": 10,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 118.8,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_810",
+    "code": "810",
+    "description": "MOCHILA TÁTICA ASSAULT 15+2L M..",
+    "price": 222.75,
+    "category": "Airsoft",
+    "subcategory": "Bolsas e cases",
+    "page": 10,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 222.75,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  },
+  {
+    "id": "prod_809",
+    "code": "809",
+    "description": "MOCHILA TÁTICA ASSAULT 15+2L T..",
+    "price": 222.75,
+    "category": "Airsoft",
+    "subcategory": "Bolsas e cases",
+    "page": 10,
+    "needsRevision": true,
+    "revisionReason": "Descrição abreviada no catálogo de origem",
+    "priceHistory": [
+      {
+        "price": 222.75,
+        "date": "2026-05-27T12:00:00Z"
+      }
+    ],
+    "createdAt": "2026-05-27T12:00:00Z"
+  }
+]

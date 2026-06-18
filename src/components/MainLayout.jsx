@@ -3,7 +3,8 @@ import {
   LayoutDashboard, MessageSquare, Users, Megaphone, Coins, 
   Briefcase, FileText, Calendar, GitBranch, Database, 
   BarChart3, UserCheck, Settings, LogOut, Bell, Search, 
-  ChevronLeft, ChevronRight, MessageCircle, AlertTriangle, ShieldCheck
+  ChevronLeft, ChevronRight, Crosshair, AlertTriangle, ShieldCheck, Package,
+  Target, Layers, TrendingUp
 } from 'lucide-react';
 import { dbService } from '../services/db';
 
@@ -29,20 +30,30 @@ export default function MainLayout({ currentView, onViewChange, user, onLogout, 
   const unreadCount = notifications.filter(n => !n.read).length;
 
   const menuItems = [
-    { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
-    { id: 'chat', label: 'Conversas', icon: MessageSquare, badge: 2 },
-    { id: 'contacts', label: 'Contatos', icon: Users },
-    { id: 'campaigns', label: 'Campanhas', icon: Megaphone },
-    { id: 'opportunities', label: 'Oportunidades', icon: Coins },
-    { id: 'services', label: 'Produtos e Serviços', icon: Briefcase },
-    { id: 'proposals', label: 'Propostas', icon: FileText },
-    { id: 'agenda', label: 'Agenda', icon: Calendar },
-    { id: 'automations', label: 'Automações', icon: GitBranch },
-    { id: 'knowledge', label: 'Base de Conhecimento', icon: Database },
-    { id: 'reports', label: 'Relatórios', icon: BarChart3 },
-    { id: 'users', label: 'Usuários', icon: UserCheck, adminOnly: true },
-    { id: 'settings', label: 'Configurações', icon: Settings }
+    { section: 'Operações', items: [
+      { id: 'dashboard',     label: 'Dashboard',          icon: LayoutDashboard },
+      { id: 'chat',          label: 'Conversas',          icon: MessageSquare, badge: 2 },
+      { id: 'contacts',      label: 'Contatos',           icon: Users },
+    ]},
+    { section: 'Comercial', items: [
+      { id: 'products',      label: 'Catálogo TACT',      icon: Package },
+      { id: 'opportunities', label: 'Oportunidades',      icon: Target },
+      { id: 'proposals',     label: 'Propostas',          icon: FileText },
+      { id: 'campaigns',     label: 'Campanhas',          icon: Megaphone },
+      { id: 'services',      label: 'Linhas de Produto',  icon: Layers },
+    ]},
+    { section: 'Gestão', items: [
+      { id: 'agenda',        label: 'Agenda',             icon: Calendar },
+      { id: 'automations',   label: 'Automações',         icon: GitBranch },
+      { id: 'knowledge',     label: 'Base de Conhecimento', icon: Database },
+      { id: 'reports',       label: 'Relatórios',         icon: BarChart3 },
+      { id: 'users',         label: 'Usuários',           icon: UserCheck, adminOnly: true },
+      { id: 'settings',      label: 'Configurações',      icon: Settings },
+    ]},
   ];
+
+  // Flatten for lookup
+  const allItems = menuItems.flatMap(s => s.items);
 
   const handleMarkAsRead = (id) => {
     dbService.markNotificationRead(id);
@@ -61,16 +72,19 @@ export default function MainLayout({ currentView, onViewChange, user, onLogout, 
   return (
     <div className="app-container">
       {/* SIDEBAR */}
-      <aside className={`sidebar glass-panel ${sidebarCollapsed ? 'collapsed' : ''}`}>
+      <aside className={`sidebar ${sidebarCollapsed ? 'collapsed' : ''}`}>
         <div className="sidebar-header">
           <div className="logo-container">
             <div className="logo-icon-wrapper">
-              <MessageCircle className="logo-icon glow-pulse" size={28} />
+              <Crosshair className="logo-icon glow-pulse" size={26} />
             </div>
             {!sidebarCollapsed && (
-              <span className="logo-text">
-                Liporoni<span className="logo-accent">.ai</span>
-              </span>
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <span className="logo-text">
+                  TACT<span className="logo-accent"> IMPORT</span>
+                </span>
+                <span className="logo-subtitle">Gestão Comercial</span>
+              </div>
             )}
           </div>
           <button 
@@ -78,34 +92,37 @@ export default function MainLayout({ currentView, onViewChange, user, onLogout, 
             onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
             title={sidebarCollapsed ? "Expandir Menu" : "Recolher Menu"}
           >
-            {sidebarCollapsed ? <ChevronRight size={18} /> : <ChevronLeft size={18} />}
+            {sidebarCollapsed ? <ChevronRight size={16} /> : <ChevronLeft size={16} />}
           </button>
         </div>
 
         <nav className="sidebar-nav">
           <ul>
-            {menuItems.map((item) => {
-              // Verifica se o item é apenas para administradores e se o usuário atual é admin
-              if (item.adminOnly && user?.role !== 'admin') return null;
-
-              const Icon = item.icon;
-              const isActive = currentView === item.id;
-
-              return (
-                <li key={item.id}>
-                  <button 
-                    className={`nav-item ${isActive ? 'active' : ''}`}
-                    onClick={() => onViewChange(item.id)}
-                  >
-                    <Icon size={20} className="nav-icon" />
-                    {!sidebarCollapsed && <span className="nav-label">{item.label}</span>}
-                    {!sidebarCollapsed && item.badge && (
-                      <span className="nav-badge glow-text">{item.badge}</span>
-                    )}
-                  </button>
-                </li>
-              );
-            })}
+            {menuItems.map((section) => (
+              <React.Fragment key={section.section}>
+                {!sidebarCollapsed && <span className="nav-section-label">{section.section}</span>}
+                {section.items.map((item) => {
+                  if (item.adminOnly && user?.role !== 'admin') return null;
+                  const Icon = item.icon;
+                  const isActive = currentView === item.id;
+                  return (
+                    <li key={item.id}>
+                      <button 
+                        className={`nav-item ${isActive ? 'active' : ''}`}
+                        onClick={() => onViewChange(item.id)}
+                        title={sidebarCollapsed ? item.label : ''}
+                      >
+                        <Icon size={19} className="nav-icon" />
+                        {!sidebarCollapsed && <span className="nav-label">{item.label}</span>}
+                        {!sidebarCollapsed && item.badge && (
+                          <span className="nav-badge">{item.badge}</span>
+                        )}
+                      </button>
+                    </li>
+                  );
+                })}
+              </React.Fragment>
+            ))}
           </ul>
         </nav>
 
@@ -132,21 +149,21 @@ export default function MainLayout({ currentView, onViewChange, user, onLogout, 
         <header className="navbar glass-panel">
           <div className="navbar-left">
             <h1 className="page-title">
-              {menuItems.find(item => item.id === currentView)?.label || 'Liporoni'}
+              {allItems.find(item => item.id === currentView)?.label || 'TACT'}
             </h1>
           </div>
 
           <div className="navbar-right">
-            {/* Liporoni Agent Status Switch */}
+            {/* TACT Agent Status Switch */}
             <div className="agent-status-panel">
-              <span className="status-label">Agente Liporoni:</span>
+              <span className="status-label">Agente TACT:</span>
               <button 
                 className={`status-toggle ${agentActive ? 'active' : 'paused'}`}
                 onClick={() => setAgentActive(!agentActive)}
-                title={agentActive ? "Pausar respostas automáticas do agente" : "Ativar respostas automáticas do agente"}
+                title={agentActive ? "Pausar respostas automáticas" : "Ativar respostas automáticas"}
               >
                 <span className="status-dot"></span>
-                <span className="status-text">{agentActive ? 'Ativo' : 'Pausado'}</span>
+                <span className="status-text">{agentActive ? 'Online' : 'Pausado'}</span>
               </button>
             </div>
 
