@@ -415,7 +415,36 @@ const defaultDatabase = {
     maxFollowUps: 3,
     followUpIntervalHours: 24,
     maxDiscountAllowed: 15.0 // percentual maximo
-  }
+  },
+  knowledgeBase: [
+    {
+      id: 'kn_1',
+      title: 'Formas de Pagamento e Condições Comerciais',
+      category: 'Financeiro',
+      content: 'Aceitamos pagamento parcelado em até 3x sem juros no boleto bancário para contratos de consultoria. Para o plano SaaS de WhatsApp API, a recorrência é mensal no cartão de crédito ou faturamento antecipado anual com 10% de desconto.',
+      type: 'text',
+      status: 'Treinado',
+      updatedAt: '2026-06-18T10:00:00Z'
+    },
+    {
+      id: 'kn_2',
+      title: 'Prazos de Implantação e Entrega',
+      category: 'Implantação',
+      content: 'O prazo de implantação da plataforma WhatsApp API oficial é de 3 dias úteis após fornecimento dos dados do cliente. A Consultoria Comercial com IA possui cronograma de entrega de 15 dias úteis, incluindo treinamento e testes.',
+      type: 'text',
+      status: 'Treinado',
+      updatedAt: '2026-06-18T10:05:00Z'
+    },
+    {
+      id: 'kn_3',
+      title: 'Política de Cancelamento e Fidelidade',
+      category: 'Contratos',
+      content: 'Os planos de licença SaaS não possuem fidelidade e podem ser cancelados a qualquer momento sem cobrança de taxas adicionais. Os projetos de Consultoria possuem cláusula de fidelidade de 6 meses após a assinatura comercial.',
+      type: 'text',
+      status: 'Treinado',
+      updatedAt: '2026-06-18T10:10:00Z'
+    }
+  ]
 };
 
 // Inicializador
@@ -535,5 +564,31 @@ export const dbService = {
   // Usuários
   getUsers: () => {
     return getDB().users;
+  },
+
+  // Base de Conhecimento
+  getKnowledgeBase: () => {
+    return getDB().knowledgeBase || [];
+  },
+  saveKnowledgeArticle: (article) => {
+    const db = getDB();
+    if (!db.knowledgeBase) db.knowledgeBase = [];
+    const index = db.knowledgeBase.findIndex(a => a.id === article.id);
+    if (index >= 0) {
+      db.knowledgeBase[index] = { ...article, updatedAt: new Date().toISOString() };
+    } else {
+      article.id = 'kn_' + Date.now();
+      article.updatedAt = new Date().toISOString();
+      article.status = 'Treinado';
+      db.knowledgeBase.push(article);
+    }
+    saveDB(db);
+    return article;
+  },
+  deleteKnowledgeArticle: (id) => {
+    const db = getDB();
+    if (!db.knowledgeBase) return;
+    db.knowledgeBase = db.knowledgeBase.filter(a => a.id !== id);
+    saveDB(db);
   }
 };

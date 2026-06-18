@@ -10,6 +10,7 @@ import Services from './views/Services';
 import Proposals from './views/Proposals';
 import Settings from './views/Settings';
 import Chat from './views/Chat';
+import Knowledge from './views/Knowledge';
 import PlaceholderView from './views/PlaceholderView';
 import './App.css';
 
@@ -70,8 +71,10 @@ function App() {
         return <Settings />;
       case 'chat':
         return <Chat />;
+      case 'knowledge':
+        return <Knowledge />;
       default:
-        // opportunities, agenda, automations, knowledge, reports, users
+        // opportunities, agenda, automations, reports, users
         return <PlaceholderView viewId={currentView} />;
     }
   };
