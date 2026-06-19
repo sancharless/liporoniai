@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { 
-  LayoutDashboard, MessageSquare, Users, Megaphone, Coins, 
+  LayoutDashboard, MessageSquare, MessageCircle, Users, Megaphone, Coins, 
   Briefcase, FileText, Calendar, GitBranch, Database, 
   BarChart3, UserCheck, Settings, LogOut, Bell, Search, 
   ChevronLeft, ChevronRight, Crosshair, AlertTriangle, ShieldCheck, Package,
