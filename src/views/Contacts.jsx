@@ -420,23 +420,33 @@ export default function Contacts() {
     return proposals.filter(p => p.contactId === selectedContact.id);
   };
 
+  // Gera cor de avatar baseado no nome (consistente)
+  const getAvatarColor = (name) => {
+    const colors = [
+      ['rgba(255,149,0,0.25)', 'rgba(255,149,0,0.4)', 'var(--primary)'],
+      ['rgba(56,189,248,0.2)', 'rgba(56,189,248,0.35)', '#38bdf8'],
+      ['rgba(167,139,250,0.2)', 'rgba(167,139,250,0.35)', '#a78bfa'],
+      ['rgba(74,222,128,0.2)', 'rgba(74,222,128,0.35)', '#4ade80'],
+      ['rgba(251,191,36,0.2)', 'rgba(251,191,36,0.35)', '#fbbf24'],
+    ];
+    const idx = (name?.charCodeAt(0) || 0) % colors.length;
+    return colors[idx];
+  };
+
   return (
-    <div className="table-card glass-panel" style={{ position: 'relative' }}>
-      <div className="view-header-row" style={{ marginBottom: '20px' }}>
+    <div style={{ position: 'relative' }}>
+      {/* Header */}
+      <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: '24px' }}>
         <div>
-          <h2 style={{ fontSize: '1.25rem' }}>Banco de Contatos</h2>
-          <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Gerencie a lista de leads comerciais, importações de base e prospecções.</p>
+          <h2 style={{ fontSize: '1.3rem', fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: '0.04em', color: 'var(--text-primary)' }}>Banco de Contatos</h2>
+          <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '4px' }}>Gerencie a lista de leads comerciais, importações de base e prospecções.</p>
         </div>
-        
-        <div style={{ display: 'flex', gap: '10px' }}>
-          <button className="btn btn-secondary" onClick={() => setShowImportModal(true)}>
-            <Upload size={16} />
-            <span>Importar CSV</span>
+        <div style={{ display: 'flex', gap: '10px', flexShrink: 0 }}>
+          <button className="btn btn-secondary" style={{ padding: '9px 16px', fontSize: '0.82rem' }} onClick={() => setShowImportModal(true)}>
+            <Upload size={15} /><span>Importar CSV</span>
           </button>
-          
-          <button className="btn btn-primary" onClick={() => setShowAddModal(true)}>
-            <Plus size={18} />
-            <span>Novo Contato</span>
+          <button className="btn btn-primary" style={{ padding: '9px 16px', fontSize: '0.82rem' }} onClick={() => setShowAddModal(true)}>
+            <Plus size={16} /><span>Novo Contato</span>
           </button>
         </div>
       </div>
@@ -524,62 +534,131 @@ export default function Contacts() {
       </div>
 
       {/* LIST TABLE */}
-      <div className="contacts-table-wrapper">
-        <table className="contacts-table">
+      <div className="glass-panel" style={{ borderRadius: 'var(--radius-lg)', overflow: 'hidden' }}>
+        {/* Table header stats bar */}
+        <div style={{ padding: '12px 20px', borderBottom: '1px solid var(--glass-border)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: 'rgba(255,255,255,0.01)' }}>
+          <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)', fontFamily: 'var(--font-heading)', letterSpacing: '0.06em' }}>
+            {filteredContacts.length} contato{filteredContacts.length !== 1 ? 's' : ''} encontrado{filteredContacts.length !== 1 ? 's' : ''}
+          </span>
+          <div style={{ display: 'flex', gap: '16px', fontSize: '0.72rem', color: 'var(--text-muted)' }}>
+            <span>🟢 {contacts.filter(c => c.leadScore >= 75).length} quentes</span>
+            <span>📄 {contacts.filter(c => c.status === 'Proposta enviada').length} propostas</span>
+            <span>🚫 {contacts.filter(c => c.status === 'Bloqueado').length} bloqueados</span>
+          </div>
+        </div>
+
+        <table style={{ width: '100%', borderCollapse: 'collapse' }}>
           <thead>
-            <tr>
-              <th>Contato</th>
-              <th>Telefone</th>
-              <th>Localização</th>
-              <th>Segmento</th>
-              <th>Scoring</th>
-              <th>Status</th>
-              <th style={{ textAlign: 'right' }}>Ações</th>
+            <tr style={{ borderBottom: '1px solid var(--glass-border)' }}>
+              {['Contato', 'Telefone', 'Localização', 'Segmento', 'Scoring', 'Status', ''].map((col, i) => (
+                <th key={i} style={{
+                  padding: '11px 16px',
+                  textAlign: i === 6 ? 'right' : 'left',
+                  fontSize: '0.68rem',
+                  fontFamily: 'var(--font-heading)',
+                  letterSpacing: '0.1em',
+                  textTransform: 'uppercase',
+                  color: 'var(--text-muted)',
+                  fontWeight: 700,
+                  background: 'rgba(255,255,255,0.01)',
+                  whiteSpace: 'nowrap',
+                }}>{col}</th>
+              ))}
             </tr>
           </thead>
           <tbody>
             {filteredContacts.length === 0 ? (
               <tr>
-                <td colSpan="7" style={{ textAlign: 'center', padding: '40px', color: 'var(--text-muted)' }}>
+                <td colSpan="7" style={{ textAlign: 'center', padding: '50px', color: 'var(--text-muted)' }}>
                   Nenhum contato encontrado com os filtros selecionados.
                 </td>
               </tr>
             ) : (
-              filteredContacts.map(contact => (
-                <tr key={contact.id} style={{ cursor: 'pointer' }} onClick={() => setSelectedContact(contact)}>
-                  <td>
-                    <div className="contact-name-cell">
-                      <span style={{ fontWeight: 600 }}>{contact.firstName} {contact.lastName}</span>
-                      <span className="contact-company">{contact.company}</span>
-                    </div>
-                  </td>
-                  <td>{contact.phone}</td>
-                  <td>{contact.city ? `${contact.city}/${contact.state}` : 'Não informado'}</td>
-                  <td>{contact.segment || '-'}</td>
-                  <td>
-                    <span style={{ fontWeight: 700, color: contact.leadScore >= 75 ? 'var(--primary)' : 'var(--text-secondary)' }}>
-                      {contact.leadScore} pts
-                    </span>
-                  </td>
-                  <td>
-                    <span className={`badge ${getStatusBadgeClass(contact.status)}`}>
-                      {contact.status}
-                    </span>
-                  </td>
-                  <td style={{ textAlign: 'right' }} onClick={(e) => e.stopPropagation()}>
-                    <div style={{ display: 'flex', gap: '8px', justifyContent: 'flex-end' }}>
-                      <button 
+              filteredContacts.map((contact, idx) => {
+                const [bgFrom, border, textColor] = getAvatarColor(contact.firstName);
+                return (
+                  <tr
+                    key={contact.id}
+                    style={{
+                      cursor: 'pointer',
+                      borderBottom: '1px solid rgba(255,255,255,0.03)',
+                      transition: 'background 0.15s',
+                    }}
+                    onClick={() => setSelectedContact(contact)}
+                    onMouseEnter={e => e.currentTarget.style.background = 'rgba(255,149,0,0.025)'}
+                    onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
+                  >
+                    {/* CONTATO — nome + empresa + avatar */}
+                    <td style={{ padding: '13px 16px' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                        {/* Avatar circular */}
+                        <div style={{
+                          width: '36px', height: '36px', borderRadius: '50%', flexShrink: 0,
+                          background: `linear-gradient(135deg, ${bgFrom}, transparent)`,
+                          border: `1px solid ${border}`,
+                          display: 'flex', alignItems: 'center', justifyContent: 'center',
+                          fontFamily: 'var(--font-display)', fontSize: '0.85rem',
+                          fontWeight: 700, color: textColor,
+                        }}>
+                          {contact.firstName[0]}
+                        </div>
+                        {/* Nome + empresa */}
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', minWidth: 0 }}>
+                          <span style={{ fontSize: '0.88rem', fontWeight: 600, color: 'var(--text-primary)', fontFamily: 'var(--font-heading)', whiteSpace: 'nowrap' }}>
+                            {contact.firstName} {contact.lastName}
+                          </span>
+                          <span style={{ fontSize: '0.72rem', color: 'var(--primary)', opacity: 0.85, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', maxWidth: '180px' }}>
+                            {contact.company}
+                          </span>
+                        </div>
+                      </div>
+                    </td>
+                    <td style={{ padding: '13px 16px', fontSize: '0.82rem', color: 'var(--text-secondary)', whiteSpace: 'nowrap' }}>
+                      {contact.phone}
+                    </td>
+                    <td style={{ padding: '13px 16px', fontSize: '0.82rem', color: 'var(--text-secondary)', whiteSpace: 'nowrap' }}>
+                      {contact.city ? `${contact.city}/${contact.state}` : '—'}
+                    </td>
+                    <td style={{ padding: '13px 16px', fontSize: '0.82rem', color: 'var(--text-secondary)' }}>
+                      {contact.segment || '—'}
+                    </td>
+                    <td style={{ padding: '13px 16px', whiteSpace: 'nowrap' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <div style={{
+                          width: '36px', height: '5px', borderRadius: '3px',
+                          background: 'rgba(255,255,255,0.06)',
+                          overflow: 'hidden',
+                        }}>
+                          <div style={{
+                            height: '100%',
+                            width: `${contact.leadScore}%`,
+                            background: contact.leadScore >= 75 ? 'var(--primary)' : contact.leadScore >= 50 ? '#fbbf24' : 'rgba(255,255,255,0.2)',
+                            borderRadius: '3px',
+                          }} />
+                        </div>
+                        <span style={{ fontSize: '0.82rem', fontWeight: 700, color: contact.leadScore >= 75 ? 'var(--primary)' : 'var(--text-secondary)' }}>
+                          {contact.leadScore} pts
+                        </span>
+                      </div>
+                    </td>
+                    <td style={{ padding: '13px 16px' }}>
+                      <span className={`badge ${getStatusBadgeClass(contact.status)}`} style={{ fontSize: '0.65rem', whiteSpace: 'nowrap' }}>
+                        {contact.status}
+                      </span>
+                    </td>
+                    <td style={{ padding: '13px 16px', textAlign: 'right' }} onClick={e => e.stopPropagation()}>
+                      <button
                         onClick={() => handleDelete(contact.id)}
-                        className="btn btn-danger" 
-                        style={{ padding: '6px', borderRadius: '6px' }}
-                        title="Excluir"
+                        className="btn btn-danger"
+                        style={{ padding: '5px 8px', borderRadius: '6px', fontSize: '0.75rem' }}
+                        title="Excluir contato"
                       >
-                        <Trash2 size={14} />
+                        <Trash2 size={13} />
                       </button>
-                    </div>
-                  </td>
-                </tr>
-              ))
+                    </td>
+                  </tr>
+                );
+              })
             )}
           </tbody>
         </table>
@@ -589,15 +668,18 @@ export default function Contacts() {
          DRAWER DE DETALHES DO CONTATO (DIREITA)
          ========================================================================== */}
       {selectedContact && (
-        <div style={{ position: 'fixed', top: 0, right: 0, width: '450px', height: '100vh', background: 'var(--bg-secondary)', borderLeft: '1px solid var(--glass-border)', boxShadow: 'var(--shadow-lg)', zIndex: 100, display: 'flex', flexDirection: 'column' }}>
-          <div style={{ padding: '20px', borderBottom: '1px solid var(--glass-border)', display: 'flex', justifyBetween: 'space-between', alignItems: 'center', justifyContent: 'space-between' }}>
-            <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
-              <div style={{ width: '38px', height: '38px', borderRadius: '50%', background: 'var(--primary)', color: '#000', display: 'flex', alignItems: 'center', justify: 'center', fontWeight: 700 }}>
-                {selectedContact.firstName[0]}
-              </div>
+        <div style={{ position: 'fixed', top: 0, right: 0, width: '440px', height: '100vh', background: 'rgba(8,11,16,0.98)', borderLeft: '1px solid rgba(255,149,0,0.12)', boxShadow: '-10px 0 40px rgba(0,0,0,0.6)', zIndex: 100, display: 'flex', flexDirection: 'column', backdropFilter: 'blur(20px)' }}>
+          <div style={{ padding: '18px 20px', borderBottom: '1px solid var(--glass-border)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: 'rgba(255,255,255,0.01)' }}>
+            <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+              {/* Avatar drawer */}
+              {(() => { const [bgFrom, border, textColor] = getAvatarColor(selectedContact.firstName); return (
+                <div style={{ width: '44px', height: '44px', borderRadius: '50%', background: `linear-gradient(135deg, ${bgFrom}, transparent)`, border: `2px solid ${border}`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'var(--font-display)', fontSize: '1rem', fontWeight: 700, color: textColor, flexShrink: 0, boxShadow: `0 0 14px ${border}` }}>
+                  {selectedContact.firstName[0]}
+                </div>
+              ); })()}
               <div>
-                <h3 style={{ fontSize: '0.95rem', fontWeight: 600 }}>{selectedContact.firstName} {selectedContact.lastName}</h3>
-                <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{selectedContact.company}</span>
+                <h3 style={{ fontSize: '0.95rem', fontWeight: 700, fontFamily: 'var(--font-heading)', color: 'var(--text-primary)' }}>{selectedContact.firstName} {selectedContact.lastName}</h3>
+                <span style={{ fontSize: '0.73rem', color: 'var(--primary)', opacity: 0.8 }}>{selectedContact.company}</span>
               </div>
             </div>
             <button 
